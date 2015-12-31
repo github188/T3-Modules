@@ -1,15 +1,23 @@
-T3-Modules
-==========
+## T3 Bacnet Modbus Module Image
 
-This code include 4 projects. T3-32IN.  T3-8IN13OUT. T3-8AO. T3-8IN16OUT
+![T3_Bacnet modbus module_image](https://github.com/temco-sophie/T3-Modules/blob/master/Image/T3_Bacnet%20modbus%20module_image.jpg)
 
-This code is for the Temcocontrols T3 series products.
+## T3 Bacnet Modbus Module Wiring
 
-if you have confusing of the code,  you can contact guoxinyou@temcocontrols.com
+![T3_series_wiring](https://github.com/temco-sophie/T3-Modules/blob/master/Image/T3_series_wiring.jpg)
 
-## T3 Series Module Image
+## Hightlight 
 
-![T3SeriesModule_2](https://github.com/temco-sophie/T3-Modules/blob/master/Image/T3SeriesModule_2.jpg)
+![T3_highlight_800](https://github.com/temco-sophie/T3-Modules/blob/master/Image/T3_highlight_800.jpg)
+
+## T3 Modules Work in T3000 Building system
+
+![T3000_building_system](https://github.com/temco-sophie/T3-Modules/blob/master/Image/T3000_building_system.jpg)
+
+## Detailed Photo Exhibition
+
+![T3_22i_8o_800](https://github.com/temco-sophie/T3-Modules/blob/master/Image/T3_22i_8o_800.jpg)
+
 
 Welcome to our website
 

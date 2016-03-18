@@ -154,6 +154,8 @@ void send_byte(u8 ch, u8 crc) ;
 void responseCmd(u8 type, u8* pData); 
 void internalDeal(u8 type,  u8 *pData) ;
 void USART_SendDataString(u16 num) ;
+void multiple_write_modbus(u16 num,u8 *pData,u8 HeadLen);
+void write_register_modbus(u16 num,u8 *pData,u8 HeadLen);
 extern u8 uart_send[USART_SEND_LEN] ;
 extern u8 SERIAL_RECEIVE_TIMEOUT ;
 extern u8  	Station_NUM;

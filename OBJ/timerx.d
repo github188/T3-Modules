@@ -2,7 +2,7 @@
 ..\obj\timerx.o: ..\HARDWARE\TIMER\timerx.h
 ..\obj\timerx.o: ..\USER\stm32f10x.h
 ..\obj\timerx.o: ..\CORE\core_cm3.h
-..\obj\timerx.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\timerx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\timerx.o: ..\USER\system_stm32f10x.h
 ..\obj\timerx.o: ..\USER\stm32f10x_conf.h
 ..\obj\timerx.o: ..\STM32F10x_FWLib\inc\stm32f10x_bkp.h
@@ -23,7 +23,7 @@
 ..\obj\timerx.o: ..\HARDWARE\LED\led.h
 ..\obj\timerx.o: ..\SYSTEM\bitmap.h
 ..\obj\timerx.o: ..\MODBUS\modbus.h
-..\obj\timerx.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\timerx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\timerx.o: ..\MODBUS\crc.h
 ..\obj\timerx.o: ..\USER\define.h
 ..\obj\timerx.o: ..\FILTER\filter.h

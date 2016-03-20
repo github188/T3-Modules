@@ -2,8 +2,8 @@
 ..\obj\resolv.o: ..\uIP-1.0\apps\resolv\resolv.h
 ..\obj\resolv.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\resolv.o: ..\uIP-APP\uip-conf.h
-..\obj\resolv.o: C:\Keil\ARM\ARMCC\bin\..\include\inttypes.h
-..\obj\resolv.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\resolv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\obj\resolv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\resolv.o: ..\uIP-APP\tcp_demo.h
 ..\obj\resolv.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\resolv.o: ..\uIP-1.0\uip\psock.h
@@ -37,10 +37,10 @@
 ..\obj\resolv.o: ..\uIP-APP\clock-arch.h
 ..\obj\resolv.o: ..\uIP-APP\uip-conf.h
 ..\obj\resolv.o: ..\MODBUS\modbus.h
-..\obj\resolv.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\resolv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\resolv.o: ..\MODBUS\crc.h
 ..\obj\resolv.o: ..\USER\define.h
 ..\obj\resolv.o: ..\FILTER\filter.h
 ..\obj\resolv.o: ..\SYSTEM\delay\delay.h
 ..\obj\resolv.o: ..\uIP-1.0\uip\uip.h
-..\obj\resolv.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\resolv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

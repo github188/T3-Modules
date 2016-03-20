@@ -8,8 +8,8 @@
 ..\obj\udp_demo.o: ..\uIP-1.0\uip\lc.h
 ..\obj\udp_demo.o: ..\uIP-1.0\uip\lc-switch.h
 ..\obj\udp_demo.o: ..\uIP-APP\uip-conf.h
-..\obj\udp_demo.o: C:\Keil\ARM\ARMCC\bin\..\include\inttypes.h
-..\obj\udp_demo.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\udp_demo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\obj\udp_demo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\udp_demo.o: ..\uIP-APP\tcp_demo.h
 ..\obj\udp_demo.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\udp_demo.o: ..\uIP-APP\uip-conf.h
@@ -37,11 +37,11 @@
 ..\obj\udp_demo.o: ..\uIP-APP\udp_scan.h
 ..\obj\udp_demo.o: ..\uIP-1.0\apps\dhcpc\dhcpc.h
 ..\obj\udp_demo.o: ..\MODBUS\modbus.h
-..\obj\udp_demo.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\udp_demo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\udp_demo.o: ..\MODBUS\crc.h
 ..\obj\udp_demo.o: ..\USER\define.h
 ..\obj\udp_demo.o: ..\FILTER\filter.h
 ..\obj\udp_demo.o: ..\SYSTEM\delay\delay.h
 ..\obj\udp_demo.o: ..\uIP-1.0\uip\uip.h
 ..\obj\udp_demo.o: ..\uIP-1.0\apps\resolv\resolv.h
-..\obj\udp_demo.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\udp_demo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

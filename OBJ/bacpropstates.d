@@ -1,8 +1,8 @@
 ..\obj\bacpropstates.o: ..\BACNET\src\bacpropstates.c
 ..\obj\bacpropstates.o: ..\BACNET\include\bacdcode.h
-..\obj\bacpropstates.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\bacpropstates.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\bacpropstates.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\bacpropstates.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\bacpropstates.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\bacpropstates.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\bacpropstates.o: ..\BACNET\include\bacdef.h
 ..\obj\bacpropstates.o: ..\BACNET\include\bacenum.h
 ..\obj\bacpropstates.o: ..\BACNET\include\config.h
@@ -14,7 +14,7 @@
 ..\obj\bacpropstates.o: ..\BACNET\device.h
 ..\obj\bacpropstates.o: ..\BACNET\include\wp.h
 ..\obj\bacpropstates.o: ..\BACNET\include\bacapp.h
-..\obj\bacpropstates.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\bacpropstates.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\bacpropstates.o: ..\BACNET\include\readrange.h
 ..\obj\bacpropstates.o: ..\BACNET\av.h
 ..\obj\bacpropstates.o: ..\BACNET\include\bacerror.h

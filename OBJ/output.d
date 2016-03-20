@@ -1,9 +1,9 @@
 ..\obj\output.o: ..\OUTPUT\output.c
 ..\obj\output.o: ..\MODBUS\modbus.h
-..\obj\output.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\output.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\output.o: ..\USER\stm32f10x.h
 ..\obj\output.o: ..\CORE\core_cm3.h
-..\obj\output.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\output.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\output.o: ..\USER\system_stm32f10x.h
 ..\obj\output.o: ..\USER\stm32f10x_conf.h
 ..\obj\output.o: ..\STM32F10x_FWLib\inc\stm32f10x_bkp.h

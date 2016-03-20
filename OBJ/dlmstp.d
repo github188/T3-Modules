@@ -1,8 +1,8 @@
 ..\obj\dlmstp.o: ..\BACNET\dlmstp.c
-..\obj\dlmstp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\dlmstp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\dlmstp.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
-..\obj\dlmstp.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\dlmstp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\dlmstp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\dlmstp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\dlmstp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\dlmstp.o: ..\BACNET\include\bacdef.h
 ..\obj\dlmstp.o: ..\BACNET\include\bacenum.h
 ..\obj\dlmstp.o: ..\BACNET\include\config.h
@@ -13,7 +13,7 @@
 ..\obj\dlmstp.o: ..\BACNET\include\bytes.h
 ..\obj\dlmstp.o: ..\BACNET\include\bacaddr.h
 ..\obj\dlmstp.o: ..\BACNET\include\client.h
-..\obj\dlmstp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\dlmstp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\dlmstp.o: ..\BACNET\include\apdu.h
 ..\obj\dlmstp.o: ..\BACNET\include\bacapp.h
 ..\obj\dlmstp.o: ..\BACNET\include\bacstr.h

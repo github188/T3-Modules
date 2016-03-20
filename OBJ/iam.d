@@ -1,11 +1,11 @@
 ..\obj\iam.o: ..\BACNET\src\iam.c
-..\obj\iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\iam.o: ..\BACNET\include\bacenum.h
 ..\obj\iam.o: ..\BACNET\include\bacdef.h
-..\obj\iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\iam.o: ..\BACNET\include\config.h
 ..\obj\iam.o: ..\BACNET\include\npdu.h
-..\obj\iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\iam.o: ..\BACNET\include\dcc.h
 ..\obj\iam.o: ..\BACNET\include\bacstr.h
 ..\obj\iam.o: ..\BACNET\device.h
@@ -15,7 +15,7 @@
 ..\obj\iam.o: ..\BACNET\include\bacint.h
 ..\obj\iam.o: ..\BACNET\include\bacreal.h
 ..\obj\iam.o: ..\BACNET\include\bacapp.h
-..\obj\iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\iam.o: ..\BACNET\include\readrange.h
 ..\obj\iam.o: ..\BACNET\av.h
 ..\obj\iam.o: ..\BACNET\include\bacerror.h

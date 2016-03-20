@@ -1,9 +1,9 @@
 ..\obj\rs485.o: ..\BACNET\rs485.c
-..\obj\rs485.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
-..\obj\rs485.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\rs485.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\rs485.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
-..\obj\rs485.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\rs485.o: ..\SYSTEM\usart\usart.h
 ..\obj\rs485.o: ..\USER\stm32f10x.h
 ..\obj\rs485.o: ..\CORE\core_cm3.h
@@ -26,7 +26,7 @@
 ..\obj\rs485.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\rs485.o: ..\BACNET\include\fifo.h
 ..\obj\rs485.o: ..\MODBUS\modbus.h
-..\obj\rs485.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\rs485.o: ..\SYSTEM\bitmap.h
 ..\obj\rs485.o: ..\MODBUS\crc.h
 ..\obj\rs485.o: ..\USER\define.h

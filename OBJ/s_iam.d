@@ -1,13 +1,13 @@
 ..\obj\s_iam.o: ..\BACNET\handler\s_iam.c
-..\obj\s_iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
-..\obj\s_iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\s_iam.o: C:\Keil\ARM\ARMCC\bin\..\include\errno.h
-..\obj\s_iam.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\s_iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\s_iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\s_iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+..\obj\s_iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\s_iam.o: ..\BACNET\include\config.h
 ..\obj\s_iam.o: ..\BACNET\include\bacdef.h
 ..\obj\s_iam.o: ..\BACNET\include\bacenum.h
 ..\obj\s_iam.o: ..\BACNET\include\bacdcode.h
-..\obj\s_iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\s_iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\s_iam.o: ..\BACNET\include\datetime.h
 ..\obj\s_iam.o: ..\BACNET\include\bacstr.h
 ..\obj\s_iam.o: ..\BACNET\include\bacint.h
@@ -21,7 +21,7 @@
 ..\obj\s_iam.o: ..\BACNET\device.h
 ..\obj\s_iam.o: ..\BACNET\include\wp.h
 ..\obj\s_iam.o: ..\BACNET\include\bacapp.h
-..\obj\s_iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\s_iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\s_iam.o: ..\BACNET\av.h
 ..\obj\s_iam.o: ..\BACNET\include\bacerror.h
 ..\obj\s_iam.o: ..\BACNET\include\rp.h

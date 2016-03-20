@@ -1,9 +1,9 @@
 ..\obj\bvlc.o: ..\BACNET\src\bvlc.c
-..\obj\bvlc.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\bvlc.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\bvlc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\bvlc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\bvlc.o: ..\BACNET\include\bacenum.h
 ..\obj\bvlc.o: ..\BACNET\include\bacdcode.h
-..\obj\bvlc.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\bvlc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\bvlc.o: ..\BACNET\include\bacdef.h
 ..\obj\bvlc.o: ..\BACNET\include\config.h
 ..\obj\bvlc.o: ..\BACNET\include\datetime.h
@@ -16,4 +16,4 @@
 ..\obj\bvlc.o: ..\USER\define.h
 ..\obj\bvlc.o: ..\BACNET\types.h
 ..\obj\bvlc.o: ..\BACNET\include\net.h
-..\obj\bvlc.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\bvlc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

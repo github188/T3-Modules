@@ -2,8 +2,8 @@
 ..\obj\httpd-cgi.o: ..\uIP-1.0\uip\uip.h
 ..\obj\httpd-cgi.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\httpd-cgi.o: ..\uIP-APP\uip-conf.h
-..\obj\httpd-cgi.o: C:\Keil\ARM\ARMCC\bin\..\include\inttypes.h
-..\obj\httpd-cgi.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\httpd-cgi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\obj\httpd-cgi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\httpd-cgi.o: ..\uIP-APP\tcp_demo.h
 ..\obj\httpd-cgi.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\httpd-cgi.o: ..\uIP-1.0\uip\psock.h
@@ -37,7 +37,7 @@
 ..\obj\httpd-cgi.o: ..\uIP-APP\clock-arch.h
 ..\obj\httpd-cgi.o: ..\uIP-APP\uip-conf.h
 ..\obj\httpd-cgi.o: ..\MODBUS\modbus.h
-..\obj\httpd-cgi.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\httpd-cgi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\httpd-cgi.o: ..\MODBUS\crc.h
 ..\obj\httpd-cgi.o: ..\USER\define.h
 ..\obj\httpd-cgi.o: ..\FILTER\filter.h
@@ -45,4 +45,4 @@
 ..\obj\httpd-cgi.o: ..\uIP-1.0\apps\webserver\httpd.h
 ..\obj\httpd-cgi.o: ..\uIP-1.0\apps\webserver\httpd-fs.h
 ..\obj\httpd-cgi.o: ..\uIP-1.0\apps\webserver\httpd-cgi.h
-..\obj\httpd-cgi.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\httpd-cgi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

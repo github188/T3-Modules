@@ -3,7 +3,7 @@
 ..\obj\flash.o: ..\SYSTEM\bitmap.h
 ..\obj\flash.o: ..\USER\stm32f10x.h
 ..\obj\flash.o: ..\CORE\core_cm3.h
-..\obj\flash.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\flash.o: ..\USER\system_stm32f10x.h
 ..\obj\flash.o: ..\USER\stm32f10x_conf.h
 ..\obj\flash.o: ..\STM32F10x_FWLib\inc\stm32f10x_bkp.h
@@ -24,4 +24,4 @@
 ..\obj\flash.o: ..\HARDWARE\SPI\spi.h
 ..\obj\flash.o: ..\SYSTEM\delay\delay.h
 ..\obj\flash.o: ..\SYSTEM\usart\usart.h
-..\obj\flash.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

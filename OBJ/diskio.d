@@ -3,7 +3,7 @@
 ..\obj\diskio.o: ..\SYSTEM\bitmap.h
 ..\obj\diskio.o: ..\USER\stm32f10x.h
 ..\obj\diskio.o: ..\CORE\core_cm3.h
-..\obj\diskio.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\diskio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\diskio.o: ..\USER\system_stm32f10x.h
 ..\obj\diskio.o: ..\USER\stm32f10x_conf.h
 ..\obj\diskio.o: ..\STM32F10x_FWLib\inc\stm32f10x_bkp.h
@@ -26,4 +26,4 @@
 ..\obj\diskio.o: ..\HARDWARE\FLASH\flash.h
 ..\obj\diskio.o: ..\VMALLOC\vmalloc.h
 ..\obj\diskio.o: ..\SYSTEM\usart\usart.h
-..\obj\diskio.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\diskio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

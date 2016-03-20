@@ -3,7 +3,7 @@
 ..\obj\mmc_sd.o: ..\SYSTEM\bitmap.h
 ..\obj\mmc_sd.o: ..\USER\stm32f10x.h
 ..\obj\mmc_sd.o: ..\CORE\core_cm3.h
-..\obj\mmc_sd.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\mmc_sd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\mmc_sd.o: ..\USER\system_stm32f10x.h
 ..\obj\mmc_sd.o: ..\USER\stm32f10x_conf.h
 ..\obj\mmc_sd.o: ..\STM32F10x_FWLib\inc\stm32f10x_bkp.h
@@ -23,4 +23,4 @@
 ..\obj\mmc_sd.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\mmc_sd.o: ..\HARDWARE\SPI\spi.h
 ..\obj\mmc_sd.o: ..\SYSTEM\usart\usart.h
-..\obj\mmc_sd.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\mmc_sd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

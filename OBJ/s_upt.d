@@ -1,8 +1,8 @@
 ..\obj\s_upt.o: ..\BACNET\handler\s_upt.c
-..\obj\s_upt.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
-..\obj\s_upt.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\s_upt.o: C:\Keil\ARM\ARMCC\bin\..\include\errno.h
-..\obj\s_upt.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\s_upt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\s_upt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\s_upt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+..\obj\s_upt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\s_upt.o: ..\BACNET\include\config.h
 ..\obj\s_upt.o: ..\BACNET\include\txbuf.h
 ..\obj\s_upt.o: ..\BACNET\include\datalink.h
@@ -10,7 +10,7 @@
 ..\obj\s_upt.o: ..\BACNET\include\bacenum.h
 ..\obj\s_upt.o: ..\USER\define.h
 ..\obj\s_upt.o: ..\BACNET\include\dlmstp.h
-..\obj\s_upt.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\s_upt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\s_upt.o: ..\BACNET\include\npdu.h
 ..\obj\s_upt.o: ..\BACNET\include\bip.h
 ..\obj\s_upt.o: ..\BACNET\include\bvlc.h
@@ -26,7 +26,7 @@
 ..\obj\s_upt.o: ..\BACNET\device.h
 ..\obj\s_upt.o: ..\BACNET\include\wp.h
 ..\obj\s_upt.o: ..\BACNET\include\bacapp.h
-..\obj\s_upt.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\s_upt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\s_upt.o: ..\BACNET\av.h
 ..\obj\s_upt.o: ..\BACNET\include\bacerror.h
 ..\obj\s_upt.o: ..\BACNET\include\rp.h

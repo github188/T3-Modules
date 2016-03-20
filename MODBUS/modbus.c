@@ -19,8 +19,8 @@
 
 static u8 randval = 0 ;
 u8 i2c_test[10] ;
-u8 USART_RX_BUF[USART_REC_LEN];     //接收缓冲,最大USART_REC_LEN个字节.
-u8 uart_send[USART_SEND_LEN] ;
+u8 USART_RX_BUF[USART_REC_LEN];     //USART_REC_LEN is the length of data to be received @#@
+u8 uart_send[USART_SEND_LEN] ;			//USART_SEND_LEN is the length of data to be sent @#@
 vu8 transmit_finished = 0 ; 
 vu8 revce_count = 0 ;
 vu8 rece_size = 0 ;
@@ -36,16 +36,20 @@ u16 uart_num = 0 ;
 extern FIFO_BUFFER Receive_Buffer0;
  
  
-void USART1_IRQHandler(void)                	//This is the interrupt request handler for USART1
+void USART1_IRQHandler(void)                	//This is the interrupt request handler for USART1 interrupts @#@
 {		
 	u8 receive_buf ;
 	static u16 send_count = 0 ;
-	if(USART_GetITStatus(USART1, USART_IT_RXNE) == SET)	//接收中断
+	
+	//USART_GetITStatus (USART_TypeDef *USARTx, uint32_t USART_IT)
+ 	//Checks whether the specified USART interrupt has occurred or not. 
+	//USART_IT_RXNE: specifies the interrupt source for Receive Data register not empty interrupt.
+	if(USART_GetITStatus(USART1, USART_IT_RXNE) == SET)		//Check if the USART1 receive interrupt flag was set @#@
 	{
 			if(modbus.protocal == MODBUS )	
 			{
 					if(revce_count < 250)
-						USART_RX_BUF[revce_count++] = USART_ReceiveData(USART1);	//(USART1->DR);		//读取接收到的数据
+						USART_RX_BUF[revce_count++] = USART_ReceiveData(USART1);	//(USART1->DR); the character from the USART1 data register is saved @#@
 						else
 							 serial_restart();
 						if(revce_count == 1)
@@ -98,7 +102,7 @@ void USART1_IRQHandler(void)                	//This is the interrupt request han
 			}
 			else if(modbus.protocal == BAC_MSTP )
 			{
-					if(USART_GetITStatus(USART1, USART_IT_RXNE) == SET)
+					if(USART_GetITStatus(USART1, USART_IT_RXNE) == SET)		//check if the USART_IT_RXNE flag (Receive Data register not empty interrupt) is set @#@
 					{
 							receive_buf =  USART_ReceiveData(USART1); 
 							FIFO_Put(&Receive_Buffer0, receive_buf);
@@ -115,21 +119,21 @@ void USART1_IRQHandler(void)                	//This is the interrupt request han
 //         else
 //             USART_SendData(USART1, pDataByte[uart_num++]);
 //	}
-	else  if( USART_GetITStatus(USART1, USART_IT_TXE) == SET  )
+	else  if( USART_GetITStatus(USART1, USART_IT_TXE) == SET  )					//if the USART_IT_TXE flag is set (Tansmit Data Register empty interrupt) @#@
      {
         if((modbus.protocal == MODBUS )||(modbus.protocal == BAC_MSTP))
 				{
 					 if( send_count > sendbyte_num)
 						{
-								 USART_ITConfig(USART1, USART_IT_TXE, DISABLE);
+								 USART_ITConfig(USART1, USART_IT_TXE, DISABLE);				//USART_ITConfig (USART_TypeDef *USARTx, uint32_t USART_IT, FunctionalState NewState) Enables or disables the specified USART interrupts. @#@
 								 send_count = 0 ;
 								 Timer_Silence_Reset();
 								 serial_restart();
 						}
 					 else
 					 {
-							USART_SendData(USART1, uart_send[send_count++] );
-							Timer_Silence_Reset();
+							USART_SendData(USART1, uart_send[send_count++] );				//Transmits single data through the USARTx peripheral. @#@
+							Timer_Silence_Reset();																	//Public reset of the Silence Timer @#@
 					 }
 		   }
 	
@@ -146,15 +150,16 @@ void serial_restart(void)											// Clears the Transmit flag. Used for serial
 } 
 
 //it is ready to send data by serial port . 
-static void initSend_COM(void)								//Initialize the sending operation by setting the Transmit flag.
+static void initSend_COM(void)								//Initialize the sending operation by setting the Transmit flag. @#@
 {
 	TXEN = SEND;
 }
 
 void send_byte(u8 ch, u8 crc)
 {	
-	USART_ClearFlag(USART1, USART_FLAG_TC); 
-	USART_SendData(USART1,  ch);
+	USART_ClearFlag(USART1, USART_FLAG_TC); 		//USART_FLAG_TC: to indicate the status of the transmit operation.
+																							//USART_ClearFlag (USART_TypeDef *USARTx, uint32_t USART_FLAG) Clears the USARTx's pending flags.
+	USART_SendData(USART1,  ch);								//USART_SendData (USART_TypeDef *USARTx, uint16_t Data) Transmits single data through the USARTx peripheral. @#@
 	tx_count = 2 ;
 	if(crc)
 	{
@@ -170,14 +175,14 @@ void send_byte(u8 ch, u8 crc)
 //     USART_SendData(USART1, pDataByte[uart_num++] ); 
 //	 tx_count = 20 ;
 // }
- void USART_SendDataString( u16 num )		//This function has been used to enable the Transmit interrupt 
+ void USART_SendDataString( u16 num )		//This function has been used to enable the Transmit interrupt @#@
  {
 	 tx_count = 2 ;
 	 sendbyte_num = num;
 	 uart_num = 0 ;
    USART_ITConfig(USART1, USART_IT_TXE, ENABLE);//
  }
-void modbus_init(void)									//This just sets few parameters for the modbus initialization and restarts serial
+void modbus_init(void)									//This just sets parameters for the modbus initialization and restarts serial @#@
 {
 	//uart1_init(19200);
 	serial_restart();
@@ -194,7 +199,7 @@ void modbus_init(void)									//This just sets few parameters for the modbus in
 }
 
 																				//Write to the EEPROM programmer (24cxx)
-void internalDeal(u8 type,  u8 *pData)	//Store the data from the master used for the register read/write operations
+void internalDeal(u8 type,  u8 *pData)	//Store the data from the master used for the register read/write operations @#@
 {
 	u8 i ;
 	u8 HeadLen ;
@@ -212,11 +217,13 @@ void internalDeal(u8 type,  u8 *pData)	//Store the data from the master used for
 	StartAdd = (u16)(pData[HeadLen + 2] <<8 ) + pData[HeadLen + 3];	// Formed a Start Address [L]
 	 if (pData[HeadLen + 1] == MULTIPLE_WRITE) //multi_write
 	{
-		multiplewrite_register_modbus(StartAdd, pData, HeadLen);
+		multiplewrite_register_modbus(StartAdd, pData, HeadLen);			//This is the callback to the multiple registers write operation
+																																	//The callback is defined in modbus_regOp.c file @#@
 	}
 	else if(pData[HeadLen + 1] == WRITE_VARIABLES)
 	{
-		write_register_modbus(StartAdd, pData, HeadLen);
+		write_register_modbus(StartAdd, pData, HeadLen);							//This is the callback to the single register write operation
+																																	//The callback is defined in modbus_regOp.c @#@
 	}
 //	else if(pData[HeadLen + 1] == MULTIPLE_WRITE)
 //	{
@@ -226,19 +233,19 @@ void internalDeal(u8 type,  u8 *pData)	//Store the data from the master used for
 //	
 //	}
 	
-	if (modbus.update == 0x7F)
+	if (modbus.update == 0x7F)				// ???? What object does 0x7F object id represent ???? @#@
 	{
 		SoftReset();		
 	}
-	else if(modbus.update == 0x8e)
+	else if(modbus.update == 0x8e)		// ???? What object does 0x8e object id represent ???? @#@
 	{
 		
 		//address_temp = AT24CXX_ReadOneByte(EEP_UPDATE_STATUS);
 		for(i=0; i<255; i++)
-		AT24CXX_WriteOneByte(i, 0xff);
+		AT24CXX_WriteOneByte(i, 0xff);	// ???? What object does 0xff object id represent ???? @#@
 		
 		
-		EEP_Dat_Init();
+		EEP_Dat_Init();									//Initialize Data op for EEPROM @#@
 //		SoftReset();
 		AT24CXX_WriteOneByte(EEP_UPDATE_STATUS, 0);
 		modbus.SNWriteflag = 0x00;
@@ -258,7 +265,7 @@ void internalDeal(u8 type,  u8 *pData)	//Store the data from the master used for
 
 
 //static void responseData(u16 start_address)
-void responseCmd(u8 type, u8* pData)		//Respond to the request from the master
+void responseCmd(u8 type, u8* pData)		//Respond to the request from the master @#@
 {
 	u8  i, temp1 =0, temp2 = 0;
 	u16 send_cout = 0 ;
@@ -1331,7 +1338,7 @@ u8 checkData(u16 address)								//This function is used by the slave to check w
 
  
  
-																				//Calls the functions to initialize transmission and CRC and also to respond
+																				//Calls the functions to initialize transmission and CRC and also to respond	@#@
  void dealwithData(void)								// to the requests and store the data
 {	
 	u16 address;

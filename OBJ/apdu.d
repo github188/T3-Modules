@@ -1,7 +1,7 @@
 ..\obj\apdu.o: ..\BACNET\src\apdu.c
-..\obj\apdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\apdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\apdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\apdu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\apdu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\apdu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\apdu.o: ..\BACNET\include\apdu.h
 ..\obj\apdu.o: ..\BACNET\include\bacdef.h
 ..\obj\apdu.o: ..\BACNET\include\bacenum.h
@@ -18,7 +18,7 @@
 ..\obj\apdu.o: ..\BACNET\include\bacaddr.h
 ..\obj\apdu.o: ..\BACNET\types.h
 ..\obj\apdu.o: ..\BACNET\include\handlers.h
-..\obj\apdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\apdu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\apdu.o: ..\BACNET\include\bacapp.h
 ..\obj\apdu.o: ..\BACNET\include\rd.h
 ..\obj\apdu.o: ..\BACNET\include\rp.h
@@ -43,7 +43,7 @@
 ..\obj\apdu.o: ..\BACNET\include\bip.h
 ..\obj\apdu.o: ..\BACNET\include\bvlc.h
 ..\obj\apdu.o: ..\MODBUS\modbus.h
-..\obj\apdu.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\apdu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\apdu.o: ..\USER\stm32f10x.h
 ..\obj\apdu.o: ..\CORE\core_cm3.h
 ..\obj\apdu.o: ..\USER\system_stm32f10x.h

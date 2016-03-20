@@ -1,8 +1,8 @@
 ..\obj\h_npdu.o: ..\BACNET\handler\h_npdu.c
-..\obj\h_npdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\h_npdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\h_npdu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\h_npdu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\h_npdu.o: ..\BACNET\include\bacdef.h
-..\obj\h_npdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\h_npdu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\h_npdu.o: ..\BACNET\include\bacenum.h
 ..\obj\h_npdu.o: ..\BACNET\include\config.h
 ..\obj\h_npdu.o: ..\BACNET\include\bacdcode.h
@@ -13,7 +13,7 @@
 ..\obj\h_npdu.o: ..\BACNET\include\npdu.h
 ..\obj\h_npdu.o: ..\BACNET\include\apdu.h
 ..\obj\h_npdu.o: ..\BACNET\include\handlers.h
-..\obj\h_npdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\h_npdu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\h_npdu.o: ..\BACNET\include\bacapp.h
 ..\obj\h_npdu.o: ..\BACNET\include\rd.h
 ..\obj\h_npdu.o: ..\BACNET\include\rp.h
@@ -32,4 +32,4 @@
 ..\obj\h_npdu.o: ..\BACNET\include\cov.h
 ..\obj\h_npdu.o: ..\BACNET\include\lso.h
 ..\obj\h_npdu.o: ..\BACNET\include\ptransfer.h
-..\obj\h_npdu.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\h_npdu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

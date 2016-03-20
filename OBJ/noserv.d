@@ -1,9 +1,9 @@
 ..\obj\noserv.o: ..\BACNET\handler\noserv.c
-..\obj\noserv.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
-..\obj\noserv.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\noserv.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
-..\obj\noserv.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
-..\obj\noserv.o: C:\Keil\ARM\ARMCC\bin\..\include\errno.h
+..\obj\noserv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\noserv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\noserv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\noserv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\noserv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
 ..\obj\noserv.o: ..\BACNET\include\txbuf.h
 ..\obj\noserv.o: ..\BACNET\include\config.h
 ..\obj\noserv.o: ..\BACNET\include\datalink.h
@@ -11,7 +11,7 @@
 ..\obj\noserv.o: ..\BACNET\include\bacenum.h
 ..\obj\noserv.o: ..\USER\define.h
 ..\obj\noserv.o: ..\BACNET\include\dlmstp.h
-..\obj\noserv.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\noserv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\noserv.o: ..\BACNET\include\npdu.h
 ..\obj\noserv.o: ..\BACNET\include\bip.h
 ..\obj\noserv.o: ..\BACNET\include\bvlc.h

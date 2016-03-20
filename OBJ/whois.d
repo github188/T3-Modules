@@ -1,9 +1,9 @@
 ..\obj\whois.o: ..\BACNET\src\whois.c
-..\obj\whois.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\whois.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\whois.o: ..\BACNET\include\bacenum.h
 ..\obj\whois.o: ..\BACNET\include\bacdcode.h
-..\obj\whois.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\whois.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\whois.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\whois.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\whois.o: ..\BACNET\include\bacdef.h
 ..\obj\whois.o: ..\BACNET\include\config.h
 ..\obj\whois.o: ..\BACNET\include\datetime.h

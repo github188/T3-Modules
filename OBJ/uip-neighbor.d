@@ -3,8 +3,8 @@
 ..\obj\uip-neighbor.o: ..\uIP-1.0\uip\uip.h
 ..\obj\uip-neighbor.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\uip-neighbor.o: ..\uIP-APP\uip-conf.h
-..\obj\uip-neighbor.o: C:\Keil\ARM\ARMCC\bin\..\include\inttypes.h
-..\obj\uip-neighbor.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\uip-neighbor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\obj\uip-neighbor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\uip-neighbor.o: ..\uIP-APP\tcp_demo.h
 ..\obj\uip-neighbor.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\uip-neighbor.o: ..\uIP-1.0\uip\psock.h
@@ -38,7 +38,7 @@
 ..\obj\uip-neighbor.o: ..\uIP-APP\clock-arch.h
 ..\obj\uip-neighbor.o: ..\uIP-APP\uip-conf.h
 ..\obj\uip-neighbor.o: ..\MODBUS\modbus.h
-..\obj\uip-neighbor.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\uip-neighbor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\uip-neighbor.o: ..\MODBUS\crc.h
 ..\obj\uip-neighbor.o: ..\USER\define.h
 ..\obj\uip-neighbor.o: ..\FILTER\filter.h

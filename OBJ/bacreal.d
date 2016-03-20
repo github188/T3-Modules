@@ -1,12 +1,12 @@
 ..\obj\bacreal.o: ..\BACNET\src\bacreal.c
-..\obj\bacreal.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\bacreal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\bacreal.o: ..\BACNET\include\bacdef.h
-..\obj\bacreal.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
-..\obj\bacreal.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\bacreal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\bacreal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\bacreal.o: ..\BACNET\include\bacenum.h
 ..\obj\bacreal.o: ..\BACNET\include\config.h
 ..\obj\bacreal.o: ..\BACNET\include\bacdcode.h
-..\obj\bacreal.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\bacreal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\bacreal.o: ..\BACNET\include\datetime.h
 ..\obj\bacreal.o: ..\BACNET\include\bacstr.h
 ..\obj\bacreal.o: ..\BACNET\include\bacint.h

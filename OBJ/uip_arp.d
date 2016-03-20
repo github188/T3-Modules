@@ -3,8 +3,8 @@
 ..\obj\uip_arp.o: ..\uIP-1.0\uip\uip.h
 ..\obj\uip_arp.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\uip_arp.o: ..\uIP-APP\uip-conf.h
-..\obj\uip_arp.o: C:\Keil\ARM\ARMCC\bin\..\include\inttypes.h
-..\obj\uip_arp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\uip_arp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\obj\uip_arp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\uip_arp.o: ..\uIP-APP\tcp_demo.h
 ..\obj\uip_arp.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\uip_arp.o: ..\uIP-1.0\uip\psock.h
@@ -38,7 +38,7 @@
 ..\obj\uip_arp.o: ..\uIP-APP\clock-arch.h
 ..\obj\uip_arp.o: ..\uIP-APP\uip-conf.h
 ..\obj\uip_arp.o: ..\MODBUS\modbus.h
-..\obj\uip_arp.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\uip_arp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\uip_arp.o: ..\MODBUS\crc.h
 ..\obj\uip_arp.o: ..\USER\define.h
 ..\obj\uip_arp.o: ..\FILTER\filter.h

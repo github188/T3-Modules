@@ -2,7 +2,7 @@
 ..\obj\crc.o: ..\MODBUS\crc.h
 ..\obj\crc.o: ..\USER\stm32f10x.h
 ..\obj\crc.o: ..\CORE\core_cm3.h
-..\obj\crc.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\crc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\crc.o: ..\USER\system_stm32f10x.h
 ..\obj\crc.o: ..\USER\stm32f10x_conf.h
 ..\obj\crc.o: ..\STM32F10x_FWLib\inc\stm32f10x_bkp.h

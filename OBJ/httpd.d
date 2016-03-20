@@ -2,8 +2,8 @@
 ..\obj\httpd.o: ..\uIP-1.0\uip\uip.h
 ..\obj\httpd.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\httpd.o: ..\uIP-APP\uip-conf.h
-..\obj\httpd.o: C:\Keil\ARM\ARMCC\bin\..\include\inttypes.h
-..\obj\httpd.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\httpd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\obj\httpd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\httpd.o: ..\uIP-APP\tcp_demo.h
 ..\obj\httpd.o: ..\uIP-1.0\uip\uipopt.h
 ..\obj\httpd.o: ..\uIP-1.0\uip\psock.h
@@ -37,7 +37,7 @@
 ..\obj\httpd.o: ..\uIP-APP\clock-arch.h
 ..\obj\httpd.o: ..\uIP-APP\uip-conf.h
 ..\obj\httpd.o: ..\MODBUS\modbus.h
-..\obj\httpd.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\httpd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\httpd.o: ..\MODBUS\crc.h
 ..\obj\httpd.o: ..\USER\define.h
 ..\obj\httpd.o: ..\FILTER\filter.h
@@ -46,5 +46,5 @@
 ..\obj\httpd.o: ..\uIP-1.0\apps\webserver\httpd-fs.h
 ..\obj\httpd.o: ..\uIP-1.0\apps\webserver\httpd-cgi.h
 ..\obj\httpd.o: ..\uIP-1.0\apps\webserver\http-strings.h
-..\obj\httpd.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\httpd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\httpd.o: ..\HARDWARE\LED\led.h

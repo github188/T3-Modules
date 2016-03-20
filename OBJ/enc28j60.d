@@ -1,9 +1,9 @@
 ..\obj\enc28j60.o: ..\HARDWARE\ENC28J60\enc28j60.c
-..\obj\enc28j60.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\enc28j60.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\enc28j60.o: ..\HARDWARE\SPI\spi.h
 ..\obj\enc28j60.o: ..\USER\stm32f10x.h
 ..\obj\enc28j60.o: ..\CORE\core_cm3.h
-..\obj\enc28j60.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\enc28j60.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\enc28j60.o: ..\USER\system_stm32f10x.h
 ..\obj\enc28j60.o: ..\USER\stm32f10x_conf.h
 ..\obj\enc28j60.o: ..\STM32F10x_FWLib\inc\stm32f10x_bkp.h

@@ -1,6 +1,0 @@
--c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\STM32F10x_FWLib\inc -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\SYSTEM\delay -I..\SYSTEM\usart -I..\SYSTEM -I..\HARDWARE\KEY -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\TOUCH -I..\HARDWARE\FLASH -I..\HARDWARE\STMFLASH -I..\HARDWARE\DMA -I..\HARDWARE\SDCARD -I..\FATFS\src -I..\FATFS\exfuns -I..\VMALLOC -I..\HARDWARE\TIMER -I..\HARDWARE\ENC28J60 -I..\uIP-1.0\uip -I..\uIP-1.0\apps\dhcpc -I..\uIP-1.0\apps\resolv -I..\uIP-1.0\apps\webserver -I..\uIP-APP -I..\HARDWARE\RTC -I..\USB\CONFIG\inc -I..\USB\LIB\inc -I..\USB\APP -I..\MODBUS -I..\TCPIP -I..\BACNET\handler -I..\BACNET\src -I..\BACNET\include -I..\BACNET -I..\BACNET\object -I..\KEY -I..\FILTER -I..\RANGE
--I C:\Keil\ARM\RV31\INC
--I C:\Keil\ARM\CMSIS\Include
--I Device\Include
--DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
--o ..\obj\modbus.o --omf_browse ..\obj\modbus.crf --depend ..\obj\modbus.d "..\MODBUS\modbus.c"

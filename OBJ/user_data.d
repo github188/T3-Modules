@@ -1,9 +1,9 @@
 ..\obj\user_data.o: ..\BACNET\user_data.c
 ..\obj\user_data.o: ..\BACNET\ud_str.h
-..\obj\user_data.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\user_data.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\user_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\user_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\user_data.o: ..\BACNET\types.h
-..\obj\user_data.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\user_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\user_data.o: ..\HARDWARE\LCD\lcd.h
 ..\obj\user_data.o: ..\SYSTEM\bitmap.h
 ..\obj\user_data.o: ..\USER\stm32f10x.h
@@ -36,7 +36,7 @@
 ..\obj\user_data.o: ..\BACNET\include\version.h
 ..\obj\user_data.o: ..\BACNET\include\config.h
 ..\obj\user_data.o: ..\BACNET\include\address.h
-..\obj\user_data.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\user_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\user_data.o: ..\BACNET\include\bacdef.h
 ..\obj\user_data.o: ..\BACNET\include\bacenum.h
 ..\obj\user_data.o: ..\BACNET\include\readrange.h
@@ -44,7 +44,7 @@
 ..\obj\user_data.o: ..\BACNET\include\datetime.h
 ..\obj\user_data.o: ..\BACNET\include\apdu.h
 ..\obj\user_data.o: ..\BACNET\include\bacapp.h
-..\obj\user_data.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\user_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\user_data.o: ..\BACNET\include\bacdcode.h
 ..\obj\user_data.o: ..\BACNET\include\bacint.h
 ..\obj\user_data.o: ..\BACNET\include\bacreal.h

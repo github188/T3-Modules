@@ -43,11 +43,11 @@ void multiple_write_modbus(u16 StartAdd,u8 *pData,u8 HeadLen){
 //				//	printf("ENC28J60 Init Error!\r\n");
 //				delay_ms(50);
 //				};
-				IP_Change = 1 ;						// ?? [L] what is the use of this flag ?? 
-				modbus.mac_enable = 0 ;		// what is the use of this flag ?? [L]
+				IP_Change = 1 ;						// ???? what is the use of this flag ????
+				modbus.mac_enable = 0 ;		// what is the use of this flag ???? [L]
 			}
 		}
-		#ifdef T3PT12			// Is it a Slave Modbus Device [L] ??
+		#ifdef T3PT12			// It is one of the slave modbus device @#@
 		else if((StartAdd >= MODBUS_TEMP0_HI)&&(StartAdd <= MODBUS_TEMP11_LO))
 		{
 			_TEMP_VALUE_  _offset_ra[12] ;
@@ -71,6 +71,7 @@ void multiple_write_modbus(u16 StartAdd,u8 *pData,u8 HeadLen){
 	}
 
 
+// Register write function
 void write_register_modbus(u16 StartAdd,u8 *pData,u8 HeadLen){
 
 		if(StartAdd  <= 99 )
@@ -115,26 +116,26 @@ void write_register_modbus(u16 StartAdd,u8 *pData,u8 HeadLen){
 		//				modbus.software = (USART_RX_BUF[5]<<8) ;
 		//				modbus.software |= USART_RX_BUF[4] ;				
 		//			}
-					else if(StartAdd == MODBUS_ADDRESS )
+					else if(StartAdd == MODBUS_ADDRESS )					//Write the modbus address in the memory @#@
 					{
 						AT24CXX_WriteOneByte((u16)EEP_ADDRESS, pData[HeadLen+5]);
 						modbus.address	= pData[HeadLen+5] ;
 					}
-					else if(StartAdd == MODBUS_PRODUCT_MODEL )
+					else if(StartAdd == MODBUS_PRODUCT_MODEL )		//Used to write the product model @#@
 					{
 						AT24CXX_WriteOneByte((u16)EEP_PRODUCT_MODEL, pData[HeadLen+5]);
 						modbus.product	= pData[HeadLen+5] ;
 						modbus.SNWriteflag |= 0x08;
 						AT24CXX_WriteOneByte((u16)EEP_SERIALNUMBER_WRITE_FLAG, modbus.SNWriteflag);
 					}
-					else if(StartAdd == MODBUS_HARDWARE_REV )
+					else if(StartAdd == MODBUS_HARDWARE_REV )			//Used for the hardware revision info @#@
 					{
 						AT24CXX_WriteOneByte((u16)EEP_HARDWARE_REV, pData[HeadLen+5]);
 						modbus.hardware_Rev	= pData[HeadLen+5] ;
 						modbus.SNWriteflag |= 0x04;
 						AT24CXX_WriteOneByte((u16)EEP_SERIALNUMBER_WRITE_FLAG, modbus.SNWriteflag);
 					}
-					else if(StartAdd == MODBUS_BAUDRATE )			// july 21 Ron
+					else if(StartAdd == MODBUS_BAUDRATE )			//  baud rates info
 					{			
 						modbus.baud = pData[HeadLen+5] ;
 						switch(modbus.baud)
@@ -192,6 +193,8 @@ void write_register_modbus(u16 StartAdd,u8 *pData,u8 HeadLen){
 							modbus.mac_addr[address_temp] = pData[HeadLen+5] ;
 							AT24CXX_WriteOneByte(EEP_MAC_ADDRESS_1+address_temp, pData[HeadLen+5]);
 					}
+					
+// ----------------Used for ghost IP mode-------------------------//
 					else if(StartAdd == MODBUS_GHOST_IP_MODE )
 					{
 						modbus.ghost_ip_mode = pData[HeadLen+5] ;
@@ -264,7 +267,7 @@ void write_register_modbus(u16 StartAdd,u8 *pData,u8 HeadLen){
 					}
 
 				}
-					#ifdef T38AI8AO6DO
+					#ifdef T38AI8AO6DO	//Another one of the modbus slave devices @#@
 					else if(( StartAdd >= MODBUS_AO_CHANNLE0 )&&( StartAdd <= MODBUS_AO_CHANNLE7 ))
 					{
 							address_temp	= StartAdd - MODBUS_AO_CHANNLE0 ;

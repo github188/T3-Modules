@@ -1,9 +1,9 @@
 ..\obj\h_wp.o: ..\BACNET\h_wp.c
-..\obj\h_wp.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
-..\obj\h_wp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\h_wp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
-..\obj\h_wp.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
-..\obj\h_wp.o: C:\Keil\ARM\ARMCC\bin\..\include\errno.h
+..\obj\h_wp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\h_wp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\h_wp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\h_wp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\h_wp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
 ..\obj\h_wp.o: ..\BACNET\include\config.h
 ..\obj\h_wp.o: ..\BACNET\include\txbuf.h
 ..\obj\h_wp.o: ..\BACNET\include\datalink.h
@@ -11,7 +11,7 @@
 ..\obj\h_wp.o: ..\BACNET\include\bacenum.h
 ..\obj\h_wp.o: ..\USER\define.h
 ..\obj\h_wp.o: ..\BACNET\include\dlmstp.h
-..\obj\h_wp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\h_wp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\h_wp.o: ..\BACNET\include\npdu.h
 ..\obj\h_wp.o: ..\BACNET\include\bip.h
 ..\obj\h_wp.o: ..\BACNET\include\bvlc.h

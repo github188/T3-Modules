@@ -1,9 +1,9 @@
 ..\obj\reject.o: ..\BACNET\src\reject.c
-..\obj\reject.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\reject.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\reject.o: ..\BACNET\include\bacenum.h
 ..\obj\reject.o: ..\BACNET\include\bacdcode.h
-..\obj\reject.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\reject.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\reject.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\reject.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\reject.o: ..\BACNET\include\bacdef.h
 ..\obj\reject.o: ..\BACNET\include\config.h
 ..\obj\reject.o: ..\BACNET\include\datetime.h

@@ -1,7 +1,7 @@
 ..\obj\heap_2.o: ..\FreeRTOS\portable\MemMang\heap_2.c
-..\obj\heap_2.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+..\obj\heap_2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\heap_2.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\heap_2.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\heap_2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\heap_2.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\heap_2.o: ..\USER\FreeRTOSConfig.h
 ..\obj\heap_2.o: ..\FreeRTOS\include\portable.h

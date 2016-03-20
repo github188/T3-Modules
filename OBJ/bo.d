@@ -1,9 +1,9 @@
 ..\obj\bo.o: ..\BACNET\object\bo.c
-..\obj\bo.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\bo.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\bo.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\bo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\bo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\bo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\bo.o: ..\BACNET\include\bacdef.h
-..\obj\bo.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\bo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\bo.o: ..\BACNET\include\bacenum.h
 ..\obj\bo.o: ..\BACNET\include\config.h
 ..\obj\bo.o: ..\BACNET\include\bacdcode.h

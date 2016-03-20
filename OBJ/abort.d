@@ -1,9 +1,9 @@
 ..\obj\abort.o: ..\BACNET\src\abort.c
-..\obj\abort.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\abort.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\abort.o: ..\BACNET\include\bacenum.h
 ..\obj\abort.o: ..\BACNET\include\bacdcode.h
-..\obj\abort.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\abort.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\abort.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\abort.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\abort.o: ..\BACNET\include\bacdef.h
 ..\obj\abort.o: ..\BACNET\include\config.h
 ..\obj\abort.o: ..\BACNET\include\datetime.h

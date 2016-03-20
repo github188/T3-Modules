@@ -1,7 +1,7 @@
 ..\obj\h_iam.o: ..\BACNET\handler\h_iam.c
-..\obj\h_iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
-..\obj\h_iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\h_iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\h_iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\h_iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\h_iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\h_iam.o: ..\BACNET\include\config.h
 ..\obj\h_iam.o: ..\BACNET\include\txbuf.h
 ..\obj\h_iam.o: ..\BACNET\include\datalink.h
@@ -9,7 +9,7 @@
 ..\obj\h_iam.o: ..\BACNET\include\bacenum.h
 ..\obj\h_iam.o: ..\USER\define.h
 ..\obj\h_iam.o: ..\BACNET\include\dlmstp.h
-..\obj\h_iam.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\h_iam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\h_iam.o: ..\BACNET\include\npdu.h
 ..\obj\h_iam.o: ..\BACNET\include\bip.h
 ..\obj\h_iam.o: ..\BACNET\include\bvlc.h

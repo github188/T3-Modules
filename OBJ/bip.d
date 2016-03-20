@@ -1,8 +1,8 @@
 ..\obj\bip.o: ..\BACNET\src\bip.c
-..\obj\bip.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-..\obj\bip.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\bip.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\bip.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\bip.o: ..\BACNET\include\bacdcode.h
-..\obj\bip.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\bip.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\bip.o: ..\BACNET\include\bacdef.h
 ..\obj\bip.o: ..\BACNET\include\bacenum.h
 ..\obj\bip.o: ..\BACNET\include\config.h
@@ -16,8 +16,8 @@
 ..\obj\bip.o: ..\BACNET\include\bvlc.h
 ..\obj\bip.o: ..\BACNET\include\net.h
 ..\obj\bip.o: ..\BACNET\types.h
-..\obj\bip.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
-..\obj\bip.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\bip.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\bip.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\bip.o: ..\MODBUS\modbus.h
 ..\obj\bip.o: ..\USER\stm32f10x.h
 ..\obj\bip.o: ..\CORE\core_cm3.h

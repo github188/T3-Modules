@@ -1,8 +1,8 @@
 ..\obj\device.o: ..\BACNET\device.c
-..\obj\device.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\device.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\device.o: ..\BACNET\include\bacdef.h
-..\obj\device.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\device.o: ..\BACNET\include\bacenum.h
 ..\obj\device.o: ..\BACNET\include\config.h
 ..\obj\device.o: ..\BACNET\include\bacdcode.h
@@ -18,7 +18,7 @@
 ..\obj\device.o: ..\BACNET\device.h
 ..\obj\device.o: ..\BACNET\include\wp.h
 ..\obj\device.o: ..\BACNET\include\bacapp.h
-..\obj\device.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\device.o: ..\BACNET\include\readrange.h
 ..\obj\device.o: ..\BACNET\av.h
 ..\obj\device.o: ..\BACNET\include\bacerror.h
@@ -30,4 +30,4 @@
 ..\obj\device.o: ..\BACNET\object\bo.h
 ..\obj\device.o: ..\BACNET\object\bi.h
 ..\obj\device.o: ..\BACNET\include\cov.h
-..\obj\device.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

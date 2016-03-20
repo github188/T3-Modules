@@ -1,8 +1,8 @@
 ..\obj\ptransfer.o: ..\BACNET\src\ptransfer.c
-..\obj\ptransfer.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\ptransfer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\ptransfer.o: ..\BACNET\include\bacdcode.h
-..\obj\ptransfer.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\ptransfer.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\ptransfer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\ptransfer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\ptransfer.o: ..\BACNET\include\bacdef.h
 ..\obj\ptransfer.o: ..\BACNET\include\bacenum.h
 ..\obj\ptransfer.o: ..\BACNET\include\config.h
@@ -12,7 +12,7 @@
 ..\obj\ptransfer.o: ..\BACNET\include\bacreal.h
 ..\obj\ptransfer.o: ..\BACNET\include\ptransfer.h
 ..\obj\ptransfer.o: ..\BACNET\include\client.h
-..\obj\ptransfer.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\ptransfer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\ptransfer.o: ..\BACNET\include\apdu.h
 ..\obj\ptransfer.o: ..\BACNET\include\npdu.h
 ..\obj\ptransfer.o: ..\BACNET\include\bacapp.h
@@ -40,7 +40,7 @@
 ..\obj\ptransfer.o: ..\BACNET\include\dlmstp.h
 ..\obj\ptransfer.o: ..\BACNET\include\bip.h
 ..\obj\ptransfer.o: ..\BACNET\include\bvlc.h
-..\obj\ptransfer.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\ptransfer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\ptransfer.o: ..\BACNET\ud_str.h
 ..\obj\ptransfer.o: ..\BACNET\types.h
 ..\obj\ptransfer.o: ..\BACNET\user_data.h

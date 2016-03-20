@@ -1,8 +1,8 @@
 ..\obj\av.o: ..\BACNET\av.c
-..\obj\av.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\av.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\av.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\av.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\av.o: ..\BACNET\include\bacdef.h
-..\obj\av.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\av.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\av.o: ..\BACNET\include\bacenum.h
 ..\obj\av.o: ..\BACNET\include\config.h
 ..\obj\av.o: ..\BACNET\include\bacdcode.h
@@ -11,7 +11,7 @@
 ..\obj\av.o: ..\BACNET\include\bacint.h
 ..\obj\av.o: ..\BACNET\include\bacreal.h
 ..\obj\av.o: ..\BACNET\include\bacapp.h
-..\obj\av.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\av.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\av.o: ..\BACNET\include\wp.h
 ..\obj\av.o: ..\BACNET\av.h
 ..\obj\av.o: ..\BACNET\include\bacerror.h

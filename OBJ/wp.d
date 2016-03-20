@@ -1,9 +1,9 @@
 ..\obj\wp.o: ..\BACNET\src\wp.c
-..\obj\wp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\wp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\wp.o: ..\BACNET\include\bacenum.h
 ..\obj\wp.o: ..\BACNET\include\bacdcode.h
-..\obj\wp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
-..\obj\wp.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\wp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\wp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\wp.o: ..\BACNET\include\bacdef.h
 ..\obj\wp.o: ..\BACNET\include\config.h
 ..\obj\wp.o: ..\BACNET\include\datetime.h
@@ -12,4 +12,4 @@
 ..\obj\wp.o: ..\BACNET\include\bacreal.h
 ..\obj\wp.o: ..\BACNET\include\wp.h
 ..\obj\wp.o: ..\BACNET\include\bacapp.h
-..\obj\wp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\wp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,0 +1,9 @@
+..\obj\bacaddr_1.o: ..\bac_lib\bacaddr.c
+..\obj\bacaddr_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\bacaddr_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\bacaddr_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\bacaddr_1.o: ..\BACNET\include\config.h
+..\obj\bacaddr_1.o: ..\BACNET\include\bacdef.h
+..\obj\bacaddr_1.o: ..\BACNET\include\bacenum.h
+..\obj\bacaddr_1.o: ..\BACNET\include\bacaddr.h
+..\obj\bacaddr_1.o: ..\USER\define.h

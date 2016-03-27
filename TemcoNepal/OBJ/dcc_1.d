@@ -1,0 +1,14 @@
+..\obj\dcc_1.o: ..\bac_lib\dcc.c
+..\obj\dcc_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\dcc_1.o: ..\BACNET\include\bacenum.h
+..\obj\dcc_1.o: ..\BACNET\include\bacdcode.h
+..\obj\dcc_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\dcc_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\dcc_1.o: ..\BACNET\include\bacdef.h
+..\obj\dcc_1.o: ..\BACNET\include\config.h
+..\obj\dcc_1.o: ..\BACNET\include\datetime.h
+..\obj\dcc_1.o: ..\BACNET\include\bacstr.h
+..\obj\dcc_1.o: ..\BACNET\include\bacint.h
+..\obj\dcc_1.o: ..\BACNET\include\bacreal.h
+..\obj\dcc_1.o: ..\BACNET\include\dcc.h
+..\obj\dcc_1.o: ..\USER\define.h

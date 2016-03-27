@@ -1,0 +1,14 @@
+..\obj\bacerror.o: ..\bac_lib\bacerror.c
+..\obj\bacerror.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\bacerror.o: ..\BACNET\include\bacenum.h
+..\obj\bacerror.o: ..\BACNET\include\bacdcode.h
+..\obj\bacerror.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\bacerror.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\bacerror.o: ..\BACNET\include\bacdef.h
+..\obj\bacerror.o: ..\BACNET\include\config.h
+..\obj\bacerror.o: ..\BACNET\include\datetime.h
+..\obj\bacerror.o: ..\BACNET\include\bacstr.h
+..\obj\bacerror.o: ..\BACNET\include\bacint.h
+..\obj\bacerror.o: ..\BACNET\include\bacreal.h
+..\obj\bacerror.o: ..\BACNET\include\bacerror.h
+..\obj\bacerror.o: ..\USER\define.h

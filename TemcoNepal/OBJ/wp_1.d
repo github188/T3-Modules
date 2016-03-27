@@ -1,0 +1,15 @@
+..\obj\wp_1.o: ..\bac_lib\wp.c
+..\obj\wp_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\wp_1.o: ..\BACNET\include\bacenum.h
+..\obj\wp_1.o: ..\BACNET\include\bacdcode.h
+..\obj\wp_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\wp_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\wp_1.o: ..\BACNET\include\bacdef.h
+..\obj\wp_1.o: ..\BACNET\include\config.h
+..\obj\wp_1.o: ..\BACNET\include\datetime.h
+..\obj\wp_1.o: ..\BACNET\include\bacstr.h
+..\obj\wp_1.o: ..\BACNET\include\bacint.h
+..\obj\wp_1.o: ..\BACNET\include\bacreal.h
+..\obj\wp_1.o: ..\BACNET\include\wp.h
+..\obj\wp_1.o: ..\BACNET\include\bacapp.h
+..\obj\wp_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

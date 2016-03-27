@@ -1,0 +1,11 @@
+..\obj\bacstr.o: ..\bac_lib\bacstr.c
+..\obj\bacstr.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\bacstr.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\bacstr.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\bacstr.o: ..\BACNET\include\config.h
+..\obj\bacstr.o: ..\BACNET\include\bacstr.h
+..\obj\bacstr.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\bacstr.o: ..\BACNET\include\bacdef.h
+..\obj\bacstr.o: ..\BACNET\include\bacenum.h
+..\obj\bacstr.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+..\obj\bacstr.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h

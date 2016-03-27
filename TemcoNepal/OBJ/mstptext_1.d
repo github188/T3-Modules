@@ -1,0 +1,14 @@
+..\obj\mstptext_1.o: ..\bac_lib\mstptext.c
+..\obj\mstptext_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\mstptext_1.o: ..\BACNET\include\mstp.h
+..\obj\mstptext_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\mstptext_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mstptext_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\mstptext_1.o: ..\BACNET\include\mstpdef.h
+..\obj\mstptext_1.o: ..\BACNET\include\bacdef.h
+..\obj\mstptext_1.o: ..\BACNET\include\bacenum.h
+..\obj\mstptext_1.o: ..\BACNET\include\config.h
+..\obj\mstptext_1.o: ..\BACNET\include\indtext.h
+..\obj\mstptext_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\mstptext_1.o: ..\BACNET\include\mstptext.h
+..\obj\mstptext_1.o: ..\USER\define.h

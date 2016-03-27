@@ -1,0 +1,13 @@
+..\obj\abort.o: ..\bac_lib\abort.c
+..\obj\abort.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\abort.o: ..\BACNET\include\bacenum.h
+..\obj\abort.o: ..\BACNET\include\bacdcode.h
+..\obj\abort.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\abort.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\abort.o: ..\BACNET\include\bacdef.h
+..\obj\abort.o: ..\BACNET\include\config.h
+..\obj\abort.o: ..\BACNET\include\datetime.h
+..\obj\abort.o: ..\BACNET\include\bacstr.h
+..\obj\abort.o: ..\BACNET\include\bacint.h
+..\obj\abort.o: ..\BACNET\include\bacreal.h
+..\obj\abort.o: ..\BACNET\include\abort.h

@@ -1,0 +1,16 @@
+..\obj\npdu.o: ..\bac_lib\npdu.c
+..\obj\npdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+..\obj\npdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\npdu.o: ..\BACNET\include\bacdef.h
+..\obj\npdu.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+..\obj\npdu.o: ..\BACNET\include\bacenum.h
+..\obj\npdu.o: ..\BACNET\include\config.h
+..\obj\npdu.o: ..\BACNET\include\bacdcode.h
+..\obj\npdu.o: ..\BACNET\include\datetime.h
+..\obj\npdu.o: ..\BACNET\include\bacstr.h
+..\obj\npdu.o: ..\BACNET\include\bacint.h
+..\obj\npdu.o: ..\BACNET\include\bacreal.h
+..\obj\npdu.o: ..\BACNET\types.h
+..\obj\npdu.o: ..\BACNET\include\npdu.h
+..\obj\npdu.o: ..\BACNET\include\apdu.h
+..\obj\npdu.o: ..\USER\define.h

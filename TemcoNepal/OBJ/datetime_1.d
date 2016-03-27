@@ -1,0 +1,17 @@
+..\obj\datetime_1.o: ..\bac_lib\datetime.c
+..\obj\datetime_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\datetime_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\datetime_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\datetime_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\datetime_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\datetime_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\datetime_1.o: ..\BACNET\include\datetime.h
+..\obj\datetime_1.o: ..\BACNET\include\bacdcode.h
+..\obj\datetime_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\datetime_1.o: ..\BACNET\include\bacdef.h
+..\obj\datetime_1.o: ..\BACNET\include\bacenum.h
+..\obj\datetime_1.o: ..\BACNET\include\config.h
+..\obj\datetime_1.o: ..\BACNET\include\bacstr.h
+..\obj\datetime_1.o: ..\BACNET\include\bacint.h
+..\obj\datetime_1.o: ..\BACNET\include\bacreal.h
+..\obj\datetime_1.o: ..\USER\define.h
